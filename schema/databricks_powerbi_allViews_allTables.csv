@@ -1,0 +1,1907 @@
+Schema,Table,Type,Column,DataType,Length,Nullable
+powerbi,dbo_vf_calendar,VIEW,Date,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Date Serial,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Year,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Half,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Month,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Year-Half,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Year-Quarter,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Year-Month,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Year-Week,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Year-Week Number,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Month Number,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Month Start,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Month End,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter Start,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter End,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter Month,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter Week,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter Day,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Week Friday,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Current Quarter,BOOLEAN,-,YES
+powerbi,dbo_vf_calendar,VIEW,Relative Year,INT,-,YES
+powerbi,dbo_vf_calendar,VIEW,Relative Quarter,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Relative Month,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Current Month,BOOLEAN,-,YES
+powerbi,dbo_vf_calendar,VIEW,Working Day,BOOLEAN,-,YES
+powerbi,dbo_vf_calendar,VIEW,US Holiday,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Week Thursday,DATE,-,YES
+powerbi,dbo_vf_calendar,VIEW,Is Filter,LONG,-,YES
+powerbi,dbo_vf_calendar,VIEW,Current Year,BOOLEAN,-,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter-Quarter Week,STRING,0,YES
+powerbi,dbo_vf_calendar,VIEW,Quarter-Quarter Week Sort,LONG,-,YES
+powerbi,gainsight_vf_admin_click,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_admin_click,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_admin_click,VIEW,Feature Name,STRING,0,YES
+powerbi,gainsight_vf_admin_click,VIEW,Features,LONG,-,YES
+powerbi,gainsight_vf_button_click,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_button_click,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_button_click,VIEW,Feature Name,STRING,0,YES
+powerbi,gainsight_vf_button_click,VIEW,Features,LONG,-,YES
+powerbi,gainsight_vf_button_click,VIEW,EntitleCompanyID,STRING,0,YES
+powerbi,gainsight_vf_child_category,VIEW,Category ID,LONG,-,YES
+powerbi,gainsight_vf_child_category,VIEW,Category Name,STRING,0,YES
+powerbi,gainsight_vf_child_category,VIEW,Parent Category ID,LONG,-,YES
+powerbi,gainsight_vf_cloud_event_data,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_cloud_event_data,VIEW,Event ID,LONG,-,YES
+powerbi,gainsight_vf_cloud_event_data,VIEW,Events,LONG,-,YES
+powerbi,gainsight_vf_cloud_event_data,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Link Clicked,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Download,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Source,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,User ID,LONG,-,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Country,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Region,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_download,VIEW,Count,LONG,-,YES
+powerbi,gainsight_vf_community_analytics_search_term,VIEW,Search Term,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_search_term,VIEW,User ID,LONG,-,YES
+powerbi,gainsight_vf_community_analytics_search_term,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_community_analytics_search_term,VIEW,Country,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_search_term,VIEW,Region,STRING,0,YES
+powerbi,gainsight_vf_community_analytics_search_term,VIEW,Count,LONG,-,YES
+powerbi,gainsight_vf_community_analytics_visit,VIEW,User Id,LONG,-,YES
+powerbi,gainsight_vf_community_analytics_visit,VIEW,Visit Date,DATE,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Public ID,INT,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Private ID,INT,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Title,STRING,0,YES
+powerbi,gainsight_vf_community_post,VIEW,Post Type,STRING,0,YES
+powerbi,gainsight_vf_community_post,VIEW,Reply Count,INT,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Answer ID,STRING,0,YES
+powerbi,gainsight_vf_community_post,VIEW,Author ID,INT,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Category ID,INT,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Pinned Reply ID,STRING,0,YES
+powerbi,gainsight_vf_community_post,VIEW,Posted Date,DATE,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Sentiment,STRING,0,YES
+powerbi,gainsight_vf_community_post,VIEW,Posted At,TIMESTAMP,-,YES
+powerbi,gainsight_vf_community_post,VIEW,Tags,STRING,0,YES
+powerbi,gainsight_vf_community_post,VIEW,URL,STRING,0,YES
+powerbi,gainsight_vf_community_replies,VIEW,Public ID,LONG,-,YES
+powerbi,gainsight_vf_community_replies,VIEW,Private ID,LONG,-,YES
+powerbi,gainsight_vf_community_replies,VIEW,Parent Private ID,LONG,-,YES
+powerbi,gainsight_vf_community_replies,VIEW,Post Type,STRING,0,YES
+powerbi,gainsight_vf_community_replies,VIEW,Content,STRING,0,YES
+powerbi,gainsight_vf_community_replies,VIEW,Author ID,LONG,-,YES
+powerbi,gainsight_vf_community_replies,VIEW,Replied At,TIMESTAMP,-,YES
+powerbi,gainsight_vf_community_replies,VIEW,Reply Date,DATE,-,YES
+powerbi,gainsight_vf_community_replies,VIEW,Liked By,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,User ID,LONG,-,YES
+powerbi,gainsight_vf_community_user,VIEW,User Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Full Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Role,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Department,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Join Date,DATE,-,YES
+powerbi,gainsight_vf_community_user,VIEW,Last Login Date,DATE,-,YES
+powerbi,gainsight_vf_community_user,VIEW,Last Activity Date,DATE,-,YES
+powerbi,gainsight_vf_community_user,VIEW,Company Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,CSM Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,CSM Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Primary TAM Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Primary TAM Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Secondary TAM Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Secondary TAM Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,CAM Name,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,CAM Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Account ID,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Contact ID,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Account Owner,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Account Owner Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Renewal Owner,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Renewal Owner Email,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Posts,LONG,-,YES
+powerbi,gainsight_vf_community_user,VIEW,Replies,LONG,-,YES
+powerbi,gainsight_vf_community_user,VIEW,Rank,STRING,0,YES
+powerbi,gainsight_vf_community_user,VIEW,Last Login Country,STRING,0,YES
+powerbi,gainsight_vf_consumption,VIEW,Type,STRING,0,YES
+powerbi,gainsight_vf_daily_active_users,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_daily_active_users,VIEW,Daily Active Users,LONG,-,YES
+powerbi,gainsight_vf_daily_active_users,VIEW,Total Users,LONG,-,YES
+powerbi,gainsight_vf_daily_active_users,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_instance,VIEW,Instance Name,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Company Name,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Version,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Used For,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Product,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Status,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Account Owner,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Account Billing Region,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Account Type,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Deployment Age,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Deployment Age Months,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Last Login Date,DATE,-,YES
+powerbi,gainsight_vf_instance,VIEW,Deployed On Date,DATE,-,YES
+powerbi,gainsight_vf_instance,VIEW,Last Renewal Date,DATE,-,YES
+powerbi,gainsight_vf_instance,VIEW,Next Renewal Date,DATE,-,YES
+powerbi,gainsight_vf_instance,VIEW,License Type,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Deployment Region,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,RS Endpoint License Type,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Atlas Enabled,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Adoption Score,STRING,0,YES
+powerbi,gainsight_vf_instance,VIEW,Expiration Date,DATE,-,YES
+powerbi,gainsight_vf_license_count,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_license_count,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_license_count,VIEW,Metric Desc,STRING,0,YES
+powerbi,gainsight_vf_license_count,VIEW,Used,LONG,-,YES
+powerbi,gainsight_vf_license_count,VIEW,Owned,LONG,-,YES
+powerbi,gainsight_vf_license_count,VIEW,RS Endpoint Used,STRING,0,YES
+powerbi,gainsight_vf_license_count,VIEW,RS Endpoint Owned,STRING,0,YES
+powerbi,gainsight_vf_license_count,VIEW,Percent Used,STRING,0,YES
+powerbi,gainsight_vf_license_count_test,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_license_count_test,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_license_count_test,VIEW,Metric Desc,STRING,0,YES
+powerbi,gainsight_vf_license_count_test,VIEW,Used,LONG,-,YES
+powerbi,gainsight_vf_license_count_test,VIEW,Owned,LONG,-,YES
+powerbi,gainsight_vf_license_count_test,VIEW,RS Endpoint Used,STRING,0,YES
+powerbi,gainsight_vf_license_count_test,VIEW,RS Endpoint Owned,STRING,0,YES
+powerbi,gainsight_vf_license_count_test,VIEW,Percent Used,STRING,0,YES
+powerbi,gainsight_vf_link_clicked,VIEW,Link Clicked,STRING,0,YES
+powerbi,gainsight_vf_link_clicked,VIEW,Source,STRING,0,YES
+powerbi,gainsight_vf_link_clicked,VIEW,User ID,LONG,-,YES
+powerbi,gainsight_vf_link_clicked,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_link_clicked,VIEW,Country,STRING,0,YES
+powerbi,gainsight_vf_link_clicked,VIEW,Region,STRING,0,YES
+powerbi,gainsight_vf_link_clicked,VIEW,Count,LONG,-,YES
+powerbi,gainsight_vf_page_view,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_page_view,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_page_view,VIEW,Feature Name,STRING,0,YES
+powerbi,gainsight_vf_page_view,VIEW,Features,LONG,-,YES
+powerbi,gainsight_vf_page_view,VIEW,Entitle Company ID,STRING,0,YES
+powerbi,gainsight_vf_parent_category,VIEW,Parent Category ID,LONG,-,YES
+powerbi,gainsight_vf_parent_category,VIEW,Category Name,STRING,0,YES
+powerbi,gainsight_vf_ps_password_checkout,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_ps_password_checkout,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_ps_password_checkout,VIEW,Password Checkout Requestor,LONG,-,YES
+powerbi,gainsight_vf_ps_password_checkout,VIEW,Password Checkout ISA,LONG,-,YES
+powerbi,gainsight_vf_ps_password_rotation,VIEW,ID,STRING,0,YES
+powerbi,gainsight_vf_ps_password_rotation,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_ps_password_rotation,VIEW,Rotations,LONG,-,YES
+powerbi,gainsight_vf_ps_password_rotation,VIEW,FailedRotations,LONG,-,YES
+powerbi,gainsight_vf_ps_session,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_ps_session,VIEW,Date,DATE,-,YES
+powerbi,gainsight_vf_ps_session,VIEW,Concurrent Sessions,LONG,-,YES
+powerbi,gainsight_vf_ps_session,VIEW,RDP Sessions,LONG,-,YES
+powerbi,gainsight_vf_ps_session,VIEW,SSH Sessions,LONG,-,YES
+powerbi,gainsight_vf_touch_log,VIEW,Instance ID,STRING,0,YES
+powerbi,gainsight_vf_touch_log,VIEW,Touch Count,LONG,-,YES
+powerbi,gainsight_vf_touch_log,VIEW,Touch Type,STRING,0,YES
+powerbi,gainsight_vf_touch_log,VIEW,Touch Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,Jira ID,LONG,-,YES
+powerbi,jira_vf_issues,VIEW,Jira Key,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Link,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Type,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Status,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Title,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Assigned To,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Requested By,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Created Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,Resolution Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,Project ID,LONG,-,YES
+powerbi,jira_vf_issues,VIEW,Is Assigned,BOOLEAN,-,YES
+powerbi,jira_vf_issues,VIEW,Work Type,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Department Priority,INT,-,YES
+powerbi,jira_vf_issues,VIEW,Department,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Dev Start Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,Dev End Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,QA Start Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,QA End Date,DATE,-,YES
+powerbi,jira_vf_issues,VIEW,Product Owner,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Category3,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Parent ID,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Label,STRING,0,YES
+powerbi,jira_vf_issues,VIEW,Asset Name,STRING,0,YES
+powerbi,jira_vf_projects,VIEW,Project ID,LONG,-,YES
+powerbi,jira_vf_projects,VIEW,Project Name,STRING,0,YES
+powerbi,lms_vf_activity,VIEW,Activity ID,STRING,0,YES
+powerbi,lms_vf_activity,VIEW,Activity Name,STRING,0,YES
+powerbi,lms_vf_activity,VIEW,Activity Type,STRING,0,YES
+powerbi,lms_vf_activity,VIEW,Activity Parent ID,STRING,0,YES
+powerbi,lms_vf_enrollment,VIEW,Enrollment ID,STRING,0,YES
+powerbi,lms_vf_enrollment,VIEW,Activity ID,STRING,0,YES
+powerbi,lms_vf_enrollment,VIEW,User ID,STRING,0,YES
+powerbi,lms_vf_enrollment,VIEW,Status,STRING,0,YES
+powerbi,lms_vf_enrollment,VIEW,Progress,DECIMAL,-,YES
+powerbi,lms_vf_enrollment,VIEW,Score,LONG,-,YES
+powerbi,lms_vf_enrollment,VIEW,Started date,DATE,-,YES
+powerbi,lms_vf_enrollment,VIEW,Last Opened date,DATE,-,YES
+powerbi,lms_vf_enrollment,VIEW,Due date,DATE,-,YES
+powerbi,lms_vf_enrollment,VIEW,Completed date,DATE,-,YES
+powerbi,lms_vf_enrollment,VIEW,Enrollment date,DATE,-,YES
+powerbi,lms_vf_user,VIEW,User ID,STRING,0,YES
+powerbi,lms_vf_user,VIEW,User Name,STRING,0,YES
+powerbi,lms_vf_user,VIEW,Is Active,STRING,0,YES
+powerbi,lms_vf_user,VIEW,Created Date,DATE,-,YES
+powerbi,lms_vf_user,VIEW,Account ID,STRING,0,YES
+powerbi,lms_vf_user,VIEW,Contact ID,STRING,0,YES
+powerbi,lms_vf_user,VIEW,Email,STRING,0,YES
+powerbi,lms_vf_user,VIEW,Manager ID,STRING,0,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Order Line Id,LONG,-,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Order Header Id,LONG,-,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Item,STRING,0,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Quantity,DOUBLE,-,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Start Date,STRING,0,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,End Date,STRING,0,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Unit Price,DOUBLE,-,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Dept - Department Id,LONG,-,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Dept - Department Name,STRING,0,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Supplier Contact,STRING,0,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Supplier Id,LONG,-,YES
+powerbi,pbi_fin_eng_coupa_order_dataset,VIEW,Supplier Name,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Company ID,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Company Name,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Company Domain,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Created At,DATE,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Updated At,DATE,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Deleted At,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Deployment Age,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,SFDC Account ID,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Pathfinder Site ID,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Compnay Region,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Enable Google Logins,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Enable Microsoft Logins,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Enable Access Reviews,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Enable External Audit Logs,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Used For,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Account Owner,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Account Owner Manager,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Account Type,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Company Billing Region,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,CRG Rep,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_company,VIEW,Account Territory,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Company ID,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Sample Date,DATE,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,License Owned,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Licenses Used,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Percent Used,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Integration,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Users,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Admin,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Birthright Policies,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Bundles,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Integration Apps,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Automatic Approvals,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Manual Approvals,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Distinct User Who Requested Access,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_entitle_data,VIEW,Access Requests,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_integration_apps,VIEW,Company ID,STRING,0,YES
+powerbi,pbi_gainsight_vf_company_integration_apps,VIEW,Integration,LONG,-,YES
+powerbi,pbi_gainsight_vf_company_integration_apps,VIEW,Sample Date,DATE,-,YES
+powerbi,pbi_gainsight_vf_company_integration_apps,VIEW,Integration Apps,STRING,0,YES
+powerbi,pbi_gainsight_vf_px_data_admin_click,VIEW,Entitle Company ID,STRING,0,YES
+powerbi,pbi_gainsight_vf_px_data_admin_click,VIEW,Feature Count,LONG,-,YES
+powerbi,pbi_gainsight_vf_px_data_admin_click,VIEW,Feature Name,STRING,0,YES
+powerbi,pbi_gainsight_vf_px_data_admin_click,VIEW,Sample Date,DATE,-,YES
+powerbi,pbi_gainsight_vf_px_data_admin_click,VIEW,Instance Name,STRING,0,YES
+powerbi,salesforce_business_type,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_business_type,VIEW,New or Existing,STRING,0,YES
+powerbi,salesforce_business_type,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_business_type,VIEW,Finance Business Type,STRING,0,YES
+powerbi,salesforce_business_type,VIEW,Opportunity Type Sort,INT,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Date,DATE,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Year,INT,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,EUR,DECIMAL,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,GBP,DECIMAL,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,AUD,DECIMAL,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,USD,DECIMAL,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Quota EUR,DOUBLE,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Quota GBP,DOUBLE,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Quota USD,DOUBLE,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Constant EUR,DOUBLE,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Constant GBP,DOUBLE,-,YES
+powerbi,salesforce_stg_daily_fx_rates,VIEW,Constant USD,DOUBLE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Transaction Type,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Legacy ID,NULL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Term,DOUBLE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,End Date,TIMESTAMP,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,ARR Start Date,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,ARR End Date^^,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,ARR Term,DOUBLE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Split Percentage,DOUBLE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Gross Amount,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,ACV,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,TCV,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,ACV for Outyear,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,NetYear1ACV__c,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,PriorARR__c,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,PriorContractACV__c,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Opportunity Product ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Actual Start Date,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Contract Start Date,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Actual Start Date Adj,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Actual End Date,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Contract End Date,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Actual End Date Adj,DATE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,Outyear ACV,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli,VIEW,ARR Term Days,DOUBLE,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,Opportunity Product ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,Non-Commissionable,BOOLEAN,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,ACV,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,NetACVQLI,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,TCV,DECIMAL,-,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,Transaction Type,STRING,0,YES
+powerbi,salesforce_stg_dummy_olis_qli_no_oli_soql,VIEW,Net ACV Adjustment,NULL,-,YES
+powerbi,salesforce_stg_product_life,VIEW,Product Code,STRING,0,YES
+powerbi,salesforce_stg_product_life,VIEW,Status,STRING,0,YES
+powerbi,salesforce_stg_product_life,VIEW,Year,LONG,-,YES
+powerbi,salesforce_stg_product_life,VIEW,Product Code Group,STRING,0,YES
+powerbi,salesforce_stg_product_life,VIEW,End of Sale Date,TIMESTAMP,-,YES
+powerbi,salesforce_stg_product_life,VIEW,End of Life Date,TIMESTAMP,-,YES
+powerbi,salesforce_stg_product_life_program,VIEW,Product Code,STRING,0,YES
+powerbi,salesforce_stg_product_life_program,VIEW,Status,STRING,0,YES
+powerbi,salesforce_stg_product_life_program,VIEW,Product Code Group,STRING,0,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,OpportunityCloseDate__c,DATE,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,OpportunityId__c,STRING,0,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,TransactionType__c,STRING,0,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,SBQQ__SubscriptionTerm__c,DOUBLE,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,effectiveEndDate__c,TIMESTAMP,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,SBQQ__EndDate__c,DATE,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,SBQQ__Product__c,STRING,0,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,GrossACV__c,DECIMAL,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,NetTotalPriceWeightedAvg__c,DECIMAL,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,NetYear1ACV__c,DECIMAL,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,Id,STRING,0,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,PriorARR__c,DECIMAL,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,PriorContractACV__c,DECIMAL,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,SBQQ__StartDate__c,DATE,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,OutYearACV__c,DECIMAL,-,YES
+powerbi,salesforce_stg_qlis_with_no_oli,VIEW,SubscriptionTermInDays__c,DOUBLE,-,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Territory Name,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Sales Area Country,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Region,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Theatre,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Geography,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Renewals Rep,STRING,0,YES
+powerbi,salesforce_stg_territory_mapping,VIEW,Renewals Manager,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Name,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Owner,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Program Level,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Channel Account Manager,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Record Type,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Region,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account SubRegion,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Ultimate Parent Region,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Ultimate Parent SubRegion,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Territory,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Type,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Sub Type,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,City,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Country,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Customer Since Date,DATE,-,YES
+powerbi,salesforce_vf_account,VIEW,DiscoverOrg Synced,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is Focus Account,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Employees,LONG,-,YES
+powerbi,salesforce_vf_account,VIEW,Has ELA,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Industry,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Email Domain,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is Test Record,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Postal Code,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,State,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Most Recent Active Contract End Date,DATE,-,YES
+powerbi,salesforce_vf_account,VIEW,EOL Appliance Count,DOUBLE,-,YES
+powerbi,salesforce_vf_account,VIEW,Is EOL Products Resolved,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Employees Band,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Employees Band Sort,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,SIC Code,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,SIC Description,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is GSI,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Is Named Account,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Is Focus Partner,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is Focus GSI,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Ultimate Parent Account Name,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Ultimate Parent Account ID,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,SDR Owner,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Owner Manager,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Group,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account TAM,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account CSM,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is Certified,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Account Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Sales Area Country Mapping,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Region Mapping,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Theatre Mapping,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Geography Mapping,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Renewals Rep,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Renewals Manager,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is Target Prospect,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Is 6QA,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,6QA Start Date,DATE,-,YES
+powerbi,salesforce_vf_account,VIEW,Account Buying Stage BT,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Segment,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Segment,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Account Segmentation,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Is Strategic Partner,INT,-,YES
+powerbi,salesforce_vf_account,VIEW,Customer Success Manager ID,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Technical Account Manager ID,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Primary TAM Products,STRING,0,YES
+powerbi,salesforce_vf_account,VIEW,Order Management Region,STRING,0,YES
+powerbi,salesforce_vf_account_class,VIEW,Class,STRING,0,YES
+powerbi,salesforce_vf_account_class,VIEW,Sort,LONG,-,YES
+powerbi,salesforce_vf_account_team,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_account_team,VIEW,Account Team Member ID,STRING,0,YES
+powerbi,salesforce_vf_account_team,VIEW,Team Member Role,STRING,0,YES
+powerbi,salesforce_vf_account_team,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Activity ID,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Activity Owner Assigned Role,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Activity Date,DATE,-,YES
+powerbi,salesforce_vf_activity,VIEW,Priority,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Activity Type,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Activity SubType,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Call Type,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Call Duration Seconds,LONG,-,YES
+powerbi,salesforce_vf_activity,VIEW,Call Disposition,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Outcome,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Is Convo,BOOLEAN,-,YES
+powerbi,salesforce_vf_activity,VIEW,Activity Status,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Completed Date,DATE,-,YES
+powerbi,salesforce_vf_activity,VIEW,Subject,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Sequence Name,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Sequence Number,DOUBLE,-,YES
+powerbi,salesforce_vf_activity,VIEW,Next Step,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Next Step Date,DATE,-,YES
+powerbi,salesforce_vf_activity,VIEW,Response Due Date,DATE,-,YES
+powerbi,salesforce_vf_activity,VIEW,What ID,STRING,0,YES
+powerbi,salesforce_vf_activity,VIEW,Who ID,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,StageName,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,Contract ID,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,Opportunity Product ID,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_amended_opportunity,VIEW,ARR,DECIMAL,-,YES
+powerbi,salesforce_vf_annualized_rep_quota,VIEW,Region,STRING,0,YES
+powerbi,salesforce_vf_annualized_rep_quota,VIEW,Role,STRING,0,YES
+powerbi,salesforce_vf_annualized_rep_quota,VIEW,Quarter,STRING,0,YES
+powerbi,salesforce_vf_annualized_rep_quota,VIEW,Annualized Quota,LONG,-,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Appliance Order Name,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Fulfillment Request ID,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Appliance Order Status,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Ship Via FTP,INT,-,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Date Shipped,DATE,-,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Ship Method,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Tracking Number,STRING,0,YES
+powerbi,salesforce_vf_appliance_order,VIEW,Unicom Order Date,DATE,-,YES
+powerbi,salesforce_vf_arr_goals,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_arr_goals,VIEW,Metric Value,LONG,-,YES
+powerbi,salesforce_vf_arr_goals,VIEW,Metric Desc,STRING,0,YES
+powerbi,salesforce_vf_asset,VIEW,Builder Model,STRING,0,YES
+powerbi,salesforce_vf_asset,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_asset,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_asset,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_asset,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Certification Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Course Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Created By ID,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Currency Iso Code,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Expiration Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Attendee ID,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Is Deleted,BOOLEAN,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Last Activity Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Last Modified By ID,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Last Modified Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Last Referenced Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Last Viewed Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Attendee Name,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Purchase Date,DATE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Score,DOUBLE,-,YES
+powerbi,salesforce_vf_attendee,VIEW,System Modstamp,TIMESTAMP,-,YES
+powerbi,salesforce_vf_attendee,VIEW,Training ID,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Version,STRING,0,YES
+powerbi,salesforce_vf_attendee,VIEW,Attendee Email,STRING,0,YES
+powerbi,salesforce_vf_cam_owner,VIEW,Channel Manager ID,STRING,0,YES
+powerbi,salesforce_vf_cam_owner,VIEW,Channel Manager,STRING,0,YES
+powerbi,salesforce_vf_cam_owner,VIEW,Channel Team,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign ID,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Name,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Department,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Partner,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Type,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign SubType,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Region,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign SubRegion,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Manager,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Owner,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Campaign Status,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_campaign,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_campaign,VIEW,End Date,DATE,-,YES
+powerbi,salesforce_vf_campaign,VIEW,Offer,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Campaign Member ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Campaign ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Lead ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Lead or Contact ID,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Territory,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Lead Territory Name,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Is MQL,BOOLEAN,-,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Campaign Member Date,DATE,-,YES
+powerbi,salesforce_vf_campaign_member,VIEW,CM Owner,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Is Test Record,BOOLEAN,-,YES
+powerbi,salesforce_vf_campaign_member,VIEW,CM Name,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,CM Status,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,CM Company,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Lead Score,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Is Qualified,INT,-,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Lead Score Sort,INT,-,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Country,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Media Source,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Member Follow up Source,STRING,0,YES
+powerbi,salesforce_vf_campaign_member,VIEW,Member Follow up Source Details,STRING,0,YES
+powerbi,salesforce_vf_certifications,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_certifications,VIEW,Contact Role,STRING,0,YES
+powerbi,salesforce_vf_certifications,VIEW,Certification Level,STRING,0,YES
+powerbi,salesforce_vf_certifications,VIEW,Certification Date,DATE,-,YES
+powerbi,salesforce_vf_certifications,VIEW,Expiration Date,DATE,-,YES
+powerbi,salesforce_vf_certifications,VIEW,Is Active,INT,-,YES
+powerbi,salesforce_vf_certifications,VIEW,Certified Account,STRING,0,YES
+powerbi,salesforce_vf_certifications,VIEW,Certification Product,STRING,0,YES
+powerbi,salesforce_vf_certifications,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_certifications,VIEW,Activity Name,STRING,0,YES
+powerbi,salesforce_vf_channel_quota,VIEW,CAM ID,STRING,0,YES
+powerbi,salesforce_vf_channel_quota,VIEW,Channel Manager,STRING,0,YES
+powerbi,salesforce_vf_channel_quota,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_channel_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_channel_quota,VIEW,Quota USD,STRING,0,YES
+powerbi,salesforce_vf_channel_quota,VIEW,Contribution Type,STRING,0,YES
+powerbi,salesforce_vf_channel_quota,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,BT Executive Sponsor 1,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,BT Executive Sponsor 2,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,BT Executive Sponsor 3,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Current Opportunity,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Current State,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,CXO Meeting,DATE,-,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Executive Contact 1,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Executive Contact 2,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Executive Contact 3,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,EPM Mac Involved,BOOLEAN,-,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Partner,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Partner Involvement,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Partner Rep,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Last Modified Date,DATE,-,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,Last Modified By,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence,VIEW,TAM Involved,BOOLEAN,-,YES
+powerbi,salesforce_vf_competitive_intelligence_product,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence_product,VIEW,Competitive Product,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence_product,VIEW,Asset Count,DOUBLE,-,YES
+powerbi,salesforce_vf_competitive_intelligence_product,VIEW,Vendor,STRING,0,YES
+powerbi,salesforce_vf_competitive_intelligence_product,VIEW,Integration,STRING,0,YES
+powerbi,salesforce_vf_competitors,VIEW,Opportunity Id,STRING,0,YES
+powerbi,salesforce_vf_competitors,VIEW,Competitor Type,STRING,0,YES
+powerbi,salesforce_vf_competitors,VIEW,Competitor,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,Contact Name,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,Contact Title,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,PS Last Date,DATE,-,YES
+powerbi,salesforce_vf_contact,VIEW,PS Resource Role,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,Resource Type,STRING,0,YES
+powerbi,salesforce_vf_contact,VIEW,Contact Email,STRING,0,YES
+powerbi,salesforce_vf_content_document,VIEW,Content Document ID,STRING,0,YES
+powerbi,salesforce_vf_content_document,VIEW,Modified By,STRING,0,YES
+powerbi,salesforce_vf_content_document,VIEW,Modified Date,DATE,-,YES
+powerbi,salesforce_vf_content_document,VIEW,Title,STRING,0,YES
+powerbi,salesforce_vf_content_document,VIEW,Is Close Plan,INT,-,YES
+powerbi,salesforce_vf_content_document_link,VIEW,Content Document ID,STRING,0,YES
+powerbi,salesforce_vf_content_document_link,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_contract,VIEW,Contract ID,STRING,0,YES
+powerbi,salesforce_vf_contract,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_contract,VIEW,Renewal Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_contract,VIEW,Contract Number,STRING,0,YES
+powerbi,salesforce_vf_contract,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_contract,VIEW,End Date,DATE,-,YES
+powerbi,salesforce_vf_contract,VIEW,Contract Term,LONG,-,YES
+powerbi,salesforce_vf_contract,VIEW,Activated Date,DATE,-,YES
+powerbi,salesforce_vf_contract,VIEW,Contract Status,STRING,0,YES
+powerbi,salesforce_vf_contract,VIEW,Renewal Month,TIMESTAMP,-,YES
+powerbi,salesforce_vf_contract,VIEW,Renewal Quarter,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Channel Account Manager,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Company Size,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Country,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Deal Registration Status,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Deal Registration ID,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Postal Code,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Shipping Country,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,State,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Days in Current Status,LONG,-,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Expiration Date,DATE,-,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Approved Extended Expiration Date,DATE,-,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_deal_registration,VIEW,Approved Days Extended,LONG,-,YES
+powerbi,salesforce_vf_deal_review,VIEW,Team,STRING,0,YES
+powerbi,salesforce_vf_deal_review,VIEW,Level Type,STRING,0,YES
+powerbi,salesforce_vf_deal_review,VIEW,Metric Desc,STRING,0,YES
+powerbi,salesforce_vf_deal_review,VIEW,Metric Value,DOUBLE,-,YES
+powerbi,salesforce_vf_deal_review,VIEW,Input Date,DATE,-,YES
+powerbi,salesforce_vf_elt_metrics,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_elt_metrics,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_elt_metrics,VIEW,Metric Description,STRING,0,YES
+powerbi,salesforce_vf_elt_metrics,VIEW,Metric Value,DECIMAL,-,YES
+powerbi,salesforce_vf_exchange_rate,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_exchange_rate,VIEW,Rate Type,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Month Start,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Owner,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,On Hold Percentage,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Days On Hold,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Approved Orders,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Hours To Approve,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Approved Accuracy Rate,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Owner Type,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_goals,VIEW,Processed Orders,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Fulfillment Request ID,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,OM Owner,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Fulfillment Owner,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,License Status,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Fulfillment Name,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Created Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Started Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Started Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,On Hold Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,On Hold Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,On Hold Reason,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,OM Approval Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,OM Approval Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,License Email First Sent Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,License Email Last Sent Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,License Email First Sent Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,License Email Last Sent Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Fulfilled Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Fulfilled Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Last License On Hold Date,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request,VIEW,Last License On Hold Time,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Fulfillment Request ID,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Field,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Date of Change,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Time of Change,DECIMAL,-,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Old Value,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,New Value,STRING,0,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Start Hold Date of Change,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,Start Hold Time of Change,TIMESTAMP,-,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,End Hold Date of Change,DATE,-,YES
+powerbi,salesforce_vf_fulfillment_request_history,VIEW,End Hold Time of Change,TIMESTAMP,-,YES
+powerbi,salesforce_vf_growth,VIEW,Level 3 Geo Segment,STRING,0,YES
+powerbi,salesforce_vf_growth,VIEW,Level 4 Geo Segment,STRING,0,YES
+powerbi,salesforce_vf_growth,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_growth_channel,VIEW,Channel Team,STRING,0,YES
+powerbi,salesforce_vf_growth_channel,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_growth_quota,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_growth_quota,VIEW,Quota USD,DOUBLE,-,YES
+powerbi,salesforce_vf_growth_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_growth_quota,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_growth_quota,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_growth_quota,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_growth_quota,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_growth_sales_engineers,VIEW,Sales Engineers Team,STRING,0,YES
+powerbi,salesforce_vf_growth_sales_engineers,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_growth_sdr,VIEW,SDR Team,STRING,0,YES
+powerbi,salesforce_vf_growth_sdr,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_hr_info,VIEW,Employee Number,LONG,-,YES
+powerbi,salesforce_vf_hr_info,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_hr_info,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_hr_info,VIEW,Termination Date,DATE,-,YES
+powerbi,salesforce_vf_inside_sales_rep,VIEW,ISR ID,STRING,0,YES
+powerbi,salesforce_vf_inside_sales_rep,VIEW,ISR Name,STRING,0,YES
+powerbi,salesforce_vf_inside_sales_rep,VIEW,ISR Title,STRING,0,YES
+powerbi,salesforce_vf_inside_sales_rep,VIEW,ISR Email,STRING,0,YES
+powerbi,salesforce_vf_inside_sales_rep,VIEW,ISR Manager,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Intellum Activity ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Name,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Type,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom A,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom B,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom C,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom D,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom E,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom F,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Activity Custom G,STRING,0,YES
+powerbi,salesforce_vf_intellum_activity,VIEW,Last Updated Date,DATE,-,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Intellum Enrollment ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Intellum Activity ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Intellum User ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Progress,DECIMAL,-,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Started On Date,DATE,-,YES
+powerbi,salesforce_vf_intellum_enrollments,VIEW,Last Opened Date,DATE,-,YES
+powerbi,salesforce_vf_intellum_user,VIEW,Intellum User ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_user,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_intellum_user,VIEW,Is Active,BYTE,-,YES
+powerbi,salesforce_vf_intellum_user,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_intellum_user,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_user,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_intellum_user,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,Quote ID,STRING,0,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,Quote Number,STRING,0,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,QLI ID,STRING,0,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,Uplift,DOUBLE,-,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,Year1ACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,NetYear1ACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_latest_renewal_quote,VIEW,PriorARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_lead,VIEW,Lead ID,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Lead Name,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Account Territory,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Is Test Record,BOOLEAN,-,YES
+powerbi,salesforce_vf_lead,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Lead Company,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Lead Status,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_lead,VIEW,Is Deal Registration,BOOLEAN,-,YES
+powerbi,salesforce_vf_lead,VIEW,SDR ID,STRING,0,YES
+powerbi,salesforce_vf_lead,VIEW,Is Qualified,INT,-,YES
+powerbi,salesforce_vf_lead,VIEW,Number of Employees,LONG,-,YES
+powerbi,salesforce_vf_legal_request,VIEW,Legal Request ID,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_legal_request,VIEW,Created Time,DECIMAL,-,YES
+powerbi,salesforce_vf_legal_request,VIEW,Completed Date,DATE,-,YES
+powerbi,salesforce_vf_legal_request,VIEW,Completed Time,DECIMAL,-,YES
+powerbi,salesforce_vf_legal_request,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Priority,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Status Sort,INT,-,YES
+powerbi,salesforce_vf_legal_request,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,link,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_legal_request,VIEW,Origin,STRING,0,YES
+powerbi,salesforce_vf_legal_request_history,VIEW,Legal Request ID,STRING,0,YES
+powerbi,salesforce_vf_legal_request_history,VIEW,Date of Change,DATE,-,YES
+powerbi,salesforce_vf_legal_request_history,VIEW,Field,STRING,0,YES
+powerbi,salesforce_vf_legal_request_history,VIEW,Old Value,STRING,0,YES
+powerbi,salesforce_vf_legal_request_history,VIEW,New Value,STRING,0,YES
+powerbi,salesforce_vf_license_request,VIEW,License Request ID,STRING,0,YES
+powerbi,salesforce_vf_license_request,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_license_request,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_license_request,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_license_request,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_license_request,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_license_request_item,VIEW,License Request Item ID,STRING,0,YES
+powerbi,salesforce_vf_license_request_item,VIEW,License Request ID,STRING,0,YES
+powerbi,salesforce_vf_license_request_item,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_license_request_item,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_license_request_item,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Geo Segment,STRING,0,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Plan Type,STRING,0,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Quarter Start,STRING,0,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Value,STRING,0,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Contribution Type,STRING,0,YES
+powerbi,salesforce_vf_marketing_plans,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,ID,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Name,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Company,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,SDR AE ID,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,SDR AE Name,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Title Clean,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Owner Title,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Manager Name,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Changed By ID,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,1st Touch,INT,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Sequence Start Timestamp,TIMESTAMP,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,1st Touch Timestamp,TIMESTAMP,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Outreach Type,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Subject,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Lead Source,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Lead Source Clean,STRING,0,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Week,INT,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Hours,LONG,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Days to 1st Contact,LONG,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Response 0 Day,INT,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Response 1 Day,INT,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Response 2 Day,INT,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Response 3+ Days,INT,-,YES
+powerbi,salesforce_vf_marketing_speed_to_lead,VIEW,Count ID,INT,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,OppID,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,OppName,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,CampaignName,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,ARR,DOUBLE,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,MTA_Touches,LONG,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,MTA_ARR,FLOAT,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,Title,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,Offer__c,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,StageName,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,OppType,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,AccountName,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,FullName__c,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,End-User/Partner,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,MQLDate,DATE,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,OppCreateDate,DATE,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,SalesPipelineDate,DATE,-,YES
+powerbi,salesforce_vf_marketing_test,VIEW,OpportunitySource__c,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,CMID18__c,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,CampaignId,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,AccountID,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,ContactId,STRING,0,YES
+powerbi,salesforce_vf_marketing_test,VIEW,MTA_Opps,FLOAT,-,YES
+powerbi,salesforce_vf_mdf_budget,VIEW,Year Start,DATE,-,YES
+powerbi,salesforce_vf_mdf_budget,VIEW,Account Region,STRING,0,YES
+powerbi,salesforce_vf_mdf_budget,VIEW,MDF Budget,LONG,-,YES
+powerbi,salesforce_vf_mdf_claim,VIEW,MDF Claim ID,STRING,0,YES
+powerbi,salesforce_vf_mdf_claim,VIEW,MDF Request ID,STRING,0,YES
+powerbi,salesforce_vf_mdf_claim,VIEW,Claim Amount,DOUBLE,-,YES
+powerbi,salesforce_vf_mdf_claim,VIEW,Leads Generated,DOUBLE,-,NO
+powerbi,salesforce_vf_mdf_claim,VIEW,Number of Attendees,DOUBLE,-,NO
+powerbi,salesforce_vf_mdf_claim,VIEW,Number of Registrants,DOUBLE,-,NO
+powerbi,salesforce_vf_mdf_claim,VIEW,Opportunities Qualified,DOUBLE,-,NO
+powerbi,salesforce_vf_mdf_claim,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_mdf_claim,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_mdf_claim,VIEW,Claim Date,DATE,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,MDF Request ID,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,MDF Request Name,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Partner ID,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Activity Category,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Requested Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Activity Start Date,DATE,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Activity End Date,DATE,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Campaign ID,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Cost of Sponsorship,DECIMAL,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Target Opportunities,INT,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Target Pipeline,INT,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Target Leads,INT,-,YES
+powerbi,salesforce_vf_mdf_request,VIEW,Partner Contact ID,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,CMID,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Year-Q,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Lead or Contact ID,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Campaign ID,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Campaign Name,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Campaign Status,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,MQL Score,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,SDR Owner,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,MQL Flag,INT,-,YES
+powerbi,salesforce_vf_mqls,VIEW,SAL Flag,INT,-,YES
+powerbi,salesforce_vf_mqls,VIEW,SQL Flag,INT,-,YES
+powerbi,salesforce_vf_mqls,VIEW,SAO Flag,INT,-,YES
+powerbi,salesforce_vf_mqls,VIEW,MQL Date,DATE,-,YES
+powerbi,salesforce_vf_mqls,VIEW,SAL Date,DATE,-,YES
+powerbi,salesforce_vf_mqls,VIEW,SQL Date,DATE,-,YES
+powerbi,salesforce_vf_mqls,VIEW,SAO Date,DATE,-,YES
+powerbi,salesforce_vf_mqls,VIEW,OpportunityId,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,StageName,STRING,0,YES
+powerbi,salesforce_vf_mqls,VIEW,SDR Generated?,BOOLEAN,-,YES
+powerbi,salesforce_vf_mqls,VIEW,Days MQL to SAL,LONG,-,YES
+powerbi,salesforce_vf_mqls,VIEW,Days SAL to SQL,LONG,-,YES
+powerbi,salesforce_vf_mqls,VIEW,Days SQL to SAO,LONG,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Opportunity Name,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Campaign Name,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,ARR,DOUBLE,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,MTA Touches,LONG,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,MTA ARR,DOUBLE,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Title,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Offer,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Stage Name,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Account Name,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Full Name,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Partner,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,MQL Date,DATE,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Opportunity Created Date,DATE,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Sales Pipeline Date,DATE,-,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Opportunity Source,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Campaign Member ID,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Campaign ID,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_multi-touch,VIEW,MTA Opps,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opportunity Name,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Stage Name,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,TCV,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Sales Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Forecast Status,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,SDR ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,XDR Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,SDR Accepted,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Deal Registered,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,MQL ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Has OLI,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Origin Org,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Rep Forecast Status,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,CAM Owner ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Unicom Order DateTime,TIMESTAMP,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Renewal Due Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Is Auto-Renewal,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,ISR Assigned Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Primary Campaign ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Primary Quote ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,ESS Closed to Contract Renewal,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Channel Level,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opportunity Source,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Replaced By Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Contract ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opportunity Record Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Risk Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Created By SDR,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,CRG Owner ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Planned Close Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,SDR Handoff Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opp Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opp end Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Close Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Age Days,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Outyear Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Outyear Length,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Age Band,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Age Band Sort,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,MEDPICC Score,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,MANTRA Score,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Has SDR,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Loss Reason,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Is FLR Inaccuracy,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Non-Recurring COVID,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Is Focus GSI,SHORT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Is Owner Hold,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,MQL Source ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Submitted Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,MSP End User Customer Name,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Next Steps Last Updated Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Who Is Implementing,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,SDR Next Step Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Sales Play,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Sales Pipeline Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Manager Notes,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Next Steps Notes,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Insights Connectors,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Insights Connectors Other,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,ProServ SKU Count,LONG,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Probability,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Forecast Deviation Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Forecast Deviation,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Forecast Deviation Notes,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Forecast Renewal Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Primary MQL Campaign Source,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Entitle AE,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Entitle SDR,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Main Product of interest,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Exclude from Reporting,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Nick Name,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Path to Forecast,INT,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Primary SE,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Secondary SE,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Partner SE,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Sales Pipeline Date SFDC,DATE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Win Reason,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Renewal Stage,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Renewal Substage,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Substage,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Opportunity NET ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Has POD,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Amended Contract ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity,VIEW,Net Recurring First Year ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity,VIEW,Net First Year ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_cam,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_cam,VIEW,CAM ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_cam,VIEW,Split Percentage,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_cam,VIEW,Split Approved,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_cam,VIEW,Split Approved Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_contact,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_contact,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_contact,VIEW,Is Primary,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_contact,VIEW,Role,STRING,0,YES
+powerbi,salesforce_vf_opportunity_contact,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_history,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_history,VIEW,Date of Change,DATE,-,YES
+powerbi,salesforce_vf_opportunity_history,VIEW,Field,STRING,0,YES
+powerbi,salesforce_vf_opportunity_history,VIEW,Old Value,STRING,0,YES
+powerbi,salesforce_vf_opportunity_history,VIEW,New Value,STRING,0,YES
+powerbi,salesforce_vf_opportunity_owner,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_owner,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_owner,VIEW,Split Percentage,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_owner,VIEW,Split Approved,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_owner,VIEW,Split Approved Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Opportunity Product ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Legacy ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Transaction Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Uplift,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,List Price,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Regular Price,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Unit Price,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,TCV,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ACV,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ACV for Outyear,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Gross ACV (Year1ACV__c),DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Gross ACV (NetYear1ACV__c),DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Non-Commissionable,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Gross Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Segment Index,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,End Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARR Start Date2,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARR Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARR End Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Term,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARR Term,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARR,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Term Days,INT,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Has Override ACV,INT,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Promo Code,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Customer Price,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Partner Contract Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Partner Additional Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Partner Price,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,VAD Contract Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,VAD Additional Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Related Contract,NULL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,End Date For Paid Credit,NULL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Adjusted Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARR Term Days,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Net ACV Adjustment,NULL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Exclude from Reporting,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,AcvAtRisk__c,NULL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,AdjustedSoftwareACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARRLostDiscount__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARRLostProjection__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARRLostQuantity__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARRNewQuantity__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARRNewUplift__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ARRRenew__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,AtRiskACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,CancellationARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,GrossACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,GrossARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,IsACVAtRisk__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,LineItemACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Net_ACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,NetACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,NetARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,OppLineItemACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,OutgoingACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,OverrideACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PriorARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PriorContractACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PriorContractARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ProjectedACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ProjectedARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,TotalContractValueTCV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,TransactionReason__c,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Transaction Type QLI,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,TransactionTypeOverride__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Year1ACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,NetYear1ACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,AdjustmentToACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,effectiveEndDate__c,TIMESTAMP,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,QuoteStartDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,SBQQ__EffectiveEndDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,SBQQ__EffectiveStartDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,SBQQ__EndDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,SBQQ__StartDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Net ACV OLI,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,RecurringACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Override ACV OLI,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PathfinderEnabled__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PathfinderEnabledOnPriceRule__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PathfinderExceptionReason__c,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PathfinderExceptionDetail__c,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,PathfinderExceptionNeeded__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ProductHasPathfinderEnabled__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,ProductHasPathfinderRequired__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Actual Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Actual End Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Contract Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Contract End Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Actual Start Date Adj,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Actual End Date Adj,DATE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Renewed Subscription Total,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Uplift L2O,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Uplift Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product,VIEW,Post Uplift Total,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,Opportunity Product Split ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,Opportunity Split ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,Split Percentage,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,Opportunity Product ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_product_split,VIEW,Split Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR End Date^^,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Start Date Adj,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Opportunity Product ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Legacy ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Quote Line ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Transaction Type,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Uplift,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,List Price,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Regular Price,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Unit Price,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,TCV,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ACV For Outyear,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Non-Commissionable,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Gross Amount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Segment Index,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,End Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Start Date2,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Term,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Term,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Term Days,LONG,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Has Override ACV,INT,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Promo Code,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Customer Price,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Partner Contract Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Partner Additional Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Partner Price,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,VAD Contract Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,VAD Additional Discount,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Related Contract,NULL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,End Date For Paid Credit,NULL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Term Days,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Net ACV Adjustment,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Exclude from Reporting,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,AcvAtRisk__c,NULL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,AdjustedSoftwareACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARRLostDiscount__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARRLostProjection__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARRLostQuantity__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARRNewQuantity__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARRNewUplift__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARRRenew__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,AtRiskACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,CancellationARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,GrossACV__c,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,GrossARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,IsACVAtRisk__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,LineItemACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Net_ACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,NetACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,NetARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,OppLineItemACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,OutgoingACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,OverrideACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PriorARR__c,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PriorContractACV__c,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PriorContractARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ProjectedACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ProjectedARR__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,TotalContractValueTCV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,TransactionReason__c,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Transaction Type QLI,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,TransactionTypeOverride__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Year1ACV__c,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,NetYear1ACV__c,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,AdjustmentToACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,effectiveEndDate__c,TIMESTAMP,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,QuoteStartDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,SBQQ__EffectiveEndDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,SBQQ__EffectiveStartDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,SBQQ__EndDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,SBQQ__StartDate__c,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Net ACV OLI,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,RecurringACV__c,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Override ACV OLI,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PathfinderEnabled__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Pathfinder Is Active?,INT,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PathfinderEnabledOnPriceRule__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PathfinderExceptionReason__c,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PathfinderExceptionDetail__c,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,PathfinderExceptionNeeded__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ProductHasPathfinderEnabled__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ProductHasPathfinderRequired__c,BOOLEAN,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Actual Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Actual End Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Contract Start Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Contract End Date,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Actual Start Date Adj,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Actual End Date Adj,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Opportunity Product Split ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Split Percentage,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,Index,INT,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Start Date Adj Final,DATE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,OutYear ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_productwdummys,VIEW,ARR Mid-Term Line Start,INT,-,YES
+powerbi,salesforce_vf_opportunity_se,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_se,VIEW,SE ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_se,VIEW,SE Role,STRING,0,YES
+powerbi,salesforce_vf_opportunity_se,VIEW,SE Credit,DECIMAL,-,YES
+powerbi,salesforce_vf_opportunity_stage,VIEW,Stage Name,STRING,0,YES
+powerbi,salesforce_vf_opportunity_stage,VIEW,Stage Summary,STRING,0,YES
+powerbi,salesforce_vf_opportunity_stage,VIEW,Stage Number,INT,-,YES
+powerbi,salesforce_vf_opportunity_stage,VIEW,Pipeline Weight,DOUBLE,-,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Opportunity Team ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Opportunity Team Name,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Title,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Team Memeber Role,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Opportunity Access Level,STRING,0,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Created Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Last Modified Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,External ID,INT,-,YES
+powerbi,salesforce_vf_opportunity_team_member,VIEW,Currency Code,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence ID,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Object,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Name,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Status,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Step Number,INT,-,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Step Type,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Task Due Date,DATE,-,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence User Name,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Last Campaign Name,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Manager Name,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Account Name,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Type,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Overdue Duration Description,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Sequence Overdue Duration Description Sort,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Contact Name,STRING,0,YES
+powerbi,salesforce_vf_outreach,VIEW,Last Activity Date,DATE,-,YES
+powerbi,salesforce_vf_outreach,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_page_level_security,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_page_level_security,VIEW,Page,STRING,0,YES
+powerbi,salesforce_vf_page_level_security,VIEW,Is All Access RLS,LONG,-,YES
+powerbi,salesforce_vf_page_level_security,VIEW,Is Level 4 RLS,LONG,-,YES
+powerbi,salesforce_vf_page_level_security,VIEW,Is Level 5 RLS,LONG,-,YES
+powerbi,salesforce_vf_partner_goals,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_partner_goals,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_partner_goals,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_partner_goals,VIEW,Quarter Start,STRING,0,YES
+powerbi,salesforce_vf_partner_goals,VIEW,Quota USD,DECIMAL,-,YES
+powerbi,salesforce_vf_partner_originated_goals,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_partner_originated_goals,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_partner_originated_goals,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_partner_originated_goals,VIEW,Quarter Start,STRING,0,YES
+powerbi,salesforce_vf_partner_originated_goals,VIEW,Quota USD,DECIMAL,-,YES
+powerbi,salesforce_vf_partners,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Partner ID,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Partner Role,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Partner Name,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Partner Involvement,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Primary Partner,INT,-,YES
+powerbi,salesforce_vf_partners,VIEW,Program Level,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Is Focus Partner,INT,-,YES
+powerbi,salesforce_vf_partners,VIEW,Opportunity VAD Name,STRING,0,YES
+powerbi,salesforce_vf_partners,VIEW,Opportunity Is Focus Partner,INT,-,YES
+powerbi,salesforce_vf_partners,VIEW,Is Focus GSI,INT,-,YES
+powerbi,salesforce_vf_pipeline_criteria,VIEW,Criteria,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Quota USD,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Opps Created,INT,-,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Contribution Type,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_pipeline_goals,VIEW,XDR Type,STRING,0,YES
+powerbi,salesforce_vf_pipeline_product_goals,VIEW,Geo Segment,STRING,0,YES
+powerbi,salesforce_vf_pipeline_product_goals,VIEW,Quota USD,DOUBLE,-,YES
+powerbi,salesforce_vf_pipeline_product_goals,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_pipeline_product_goals,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_pipeline_product_goals,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_pipeline_product_goals,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Date-Time (ET),TIMESTAMP,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Date,DATE,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT YQ,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Account ID,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Account Name,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Is Test Record,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Account Territory,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Account Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT User ID,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT User Name,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Sales Team,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Level 5,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Level 4,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Level 3,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Days Aged,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Business Type,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Sales Type,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Has Partner,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Sales Channel,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Primary Partner,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Partner Role,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Partner Involvement,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT MEDDPICC Score,DECIMAL,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT POCs Completed,DECIMAL,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Stage Name,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Forecast Status,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Forecast Status Sort,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Rep Forecast Status,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Rep Forecast Status Sort ,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Close Date,DATE,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Close YQ,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Has OLI,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Product Group,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Product Portfolio,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Product Family,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Legacy Product Family,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Product Nickname,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Product Code,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Product ID,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT ACV (Native),STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT TCV (Native),STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Currency,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,Relative Close Q,LONG,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,Days Until End of PIT Close Q,INT,-,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,Finance Category,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,PIT Transaction Type,STRING,0,YES
+powerbi,salesforce_vf_pit_opportunity,VIEW,NetACV Native,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA Name,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA Origin,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Lead ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA Type,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,POC Type,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA Status,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Hours Spent,DOUBLE,-,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA Date,DATE,-,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity,VIEW,PSA Account ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity_product,VIEW,PSA_ID,STRING,0,YES
+powerbi,salesforce_vf_pre_sales_activity_product,VIEW,PSA_Product,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Code,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Name,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Portfolio,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Is Active,BOOLEAN,-,YES
+powerbi,salesforce_vf_product,VIEW,Is Legacy,BOOLEAN,-,YES
+powerbi,salesforce_vf_product,VIEW,Product Family,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Nickname,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Type,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Type Sort,INT,-,YES
+powerbi,salesforce_vf_product,VIEW,Product Type Display,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product SubType,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Sale Type,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,PS Hours,DOUBLE,-,YES
+powerbi,salesforce_vf_product,VIEW,Vendor SKU,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,ASC 606 Template,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Finance Category,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Finance Category Sort,INT,-,YES
+powerbi,salesforce_vf_product,VIEW,Finance Category Display,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Life,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Life Group,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,End of Sale Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_product,VIEW,End of Life Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_product,VIEW,Product Life Program,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Product Life Group Program,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Unit of Measure,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,NetSuite Class,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,Fed Ramp,BOOLEAN,-,YES
+powerbi,salesforce_vf_product,VIEW,ARR Class SFDC,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,New ARR Class,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,ARR Type SFDC,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,SBQQ__ChargeType__c,STRING,0,YES
+powerbi,salesforce_vf_product,VIEW,ERP Class,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Account Name,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Stage Summary,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Stage Name,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Forecast Status,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Close Date,DATE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Product Portfolio Short,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Product Type,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Level 3 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Level 4 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Uplift,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Transaction Types,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,SKUs,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,ACV excl. Paid Credits,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Upgrade ACV excl. Paid Credits,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Add-On ACV excl. Paid Credits,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Other NBB ACV excl. Paid Credits,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,ESS ACV excl. Paid Credits,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Waived Credit ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Goodwill Credit ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Renewal Opportunity ID(s),STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Renewal Stage(s),STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Product Type Display,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Sales Type,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,ARR Term,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Country,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,Is Test Record,INT,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Prev. Total Pillar ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Prev. Perpetual/Maint ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Prev. Perpetual/Maint ACV (EOL),DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Prev. Saas ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Prev. Term ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Prev. Other ACV,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Non-Commissionable,BOOLEAN,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,EOL Flag,BOOLEAN,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Product Life Group Program,STRING,0,YES
+powerbi,salesforce_vf_product_migration,VIEW,CRG Upgrade Flag,BOOLEAN,-,YES
+powerbi,salesforce_vf_product_migration,VIEW,Account Segmentation,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Account Name,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Opportunity Type,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Stage Summary,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Stage Name,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Forecast Status,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Close Date,DATE,-,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Product Pillar,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Delivery,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Sales Theatre,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Sales Region,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Uplift,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Transaction Type(s),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,SKU(s),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,ACV (excl. Paid Credits),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Upgrade ACV (excl. Paid Credits),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Add-On ACV (excl. Paid Credits),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Other NBB ACV (excl. Paid Credits),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,ESS ACV (excl. Paid Credits),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Waived Credit ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Goodwill Credit ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Renewal Opportunity ID(s),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Renewal Stage(s),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Prev. Total Pillar ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Prev. Perpetual/Maint ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Prev. Perpetual/Maint ACV (EOL),STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Prev. Saas ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Prev. Term ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Prev. Other ACV,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Non-Commissionable,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,EOL Flag,BOOLEAN,-,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Delivery Display,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Product Life Group Program,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Sales Type,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,ARR Term,LONG,-,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,CRG Upgrade Flag,BOOLEAN,-,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Is Test Account,BOOLEAN,-,YES
+powerbi,salesforce_vf_product_migration_l2o,VIEW,Country,STRING,0,YES
+powerbi,salesforce_vf_product_of_interest,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_product_of_interest,VIEW,Product of Interest,STRING,0,YES
+powerbi,salesforce_vf_product_quota,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_product_quota,VIEW,Quota USD,DOUBLE,-,YES
+powerbi,salesforce_vf_product_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_product_quota,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_product_quota,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_product_quota,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Nickname,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Family,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Family Short,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Portfolio,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Portfolio Short,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Portfolio Sort,LONG,-,YES
+powerbi,salesforce_vf_product_summary,VIEW,Product Group,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,PSA Product,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Competitive Product,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Certification Product,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Legacy Product Family,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Legacy Product Group,STRING,0,YES
+powerbi,salesforce_vf_product_summary,VIEW,Finance Product Family,STRING,0,YES
+powerbi,salesforce_vf_product_type_mix_quota,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_product_type_mix_quota,VIEW,Quota,DOUBLE,-,YES
+powerbi,salesforce_vf_product_type_mix_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_product_type_mix_quota,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_product_type_mix_quota,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_product_type_mix_quota,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,PS Assignment ID,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,PS Budget ID,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Assignment Name,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Assignment Package Level,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,PS Project ID,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,PS Role,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Resource ID,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Location,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Billable,BOOLEAN,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Assignment Start Date,DATE,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Assignment End Date,DATE,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Planned Hours,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Assignment Status,STRING,0,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Scheduled Hours,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_ps_assignment,VIEW,PS Time Type,STRING,0,YES
+powerbi,salesforce_vf_ps_billing_type,VIEW,PS Billing Type,STRING,0,YES
+powerbi,salesforce_vf_ps_billing_type,VIEW,Billable,LONG,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,PS Budget ID,STRING,0,YES
+powerbi,salesforce_vf_ps_budget,VIEW,PS Project ID,STRING,0,YES
+powerbi,salesforce_vf_ps_budget,VIEW,PS Budget Type,STRING,0,YES
+powerbi,salesforce_vf_ps_budget,VIEW,Billable,INT,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,Budgeted Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_ps_budget,VIEW,TotalProjectManagerHours__c,INT,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,TotalArchitectHours__c,INT,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,TotalEngineerHours__c,INT,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,Total Hours,INT,-,YES
+powerbi,salesforce_vf_ps_budget,VIEW,Warranty Type,STRING,0,YES
+powerbi,salesforce_vf_ps_budget,VIEW,Warranty Hours,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,PS Project ID,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Name,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Record Type,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Days To PS Handoff,DECIMAL,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Waiting on PM Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Days Waiting on PM Assignment,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,PM Assigned Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Type,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Billing Type,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Billable,INT,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Manager,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Engagement Manager,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,First Assignment Created Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,First Assignment Start Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Bookings,DECIMAL,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Stage Summary,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Stage,STRING,0,YES
+powerbi,salesforce_vf_ps_project,VIEW,Days in Current Stage,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Start Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project End Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Project Close Date,DATE,-,YES
+powerbi,salesforce_vf_ps_project,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_ps_resource_bill_rates,VIEW,PS Project ID,STRING,0,YES
+powerbi,salesforce_vf_ps_resource_bill_rates,VIEW,PS Role,STRING,0,YES
+powerbi,salesforce_vf_ps_resource_bill_rates,VIEW,Hours,INT,-,YES
+powerbi,salesforce_vf_ps_resource_bill_rates,VIEW,Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_ps_resource_bill_rates,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,PS Timecard ID,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,PS Project ID,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,PS Assignment ID,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Resource ID,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Billable,INT,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Timecard End Date,DATE,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,First Submit Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Approved,INT,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Timecard Status,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Timecard Hours,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Billable Amount,DOUBLE,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Has Assignment,INT,-,YES
+powerbi,salesforce_vf_ps_timecard,VIEW,Resource Name,STRING,0,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,Job Title,STRING,0,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_quotas_focus_partners,VIEW,Quota USD,DOUBLE,-,YES
+powerbi,salesforce_vf_quote,VIEW,Quote ID,STRING,0,YES
+powerbi,salesforce_vf_quote,VIEW,Approval Status,STRING,0,YES
+powerbi,salesforce_vf_quote,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_quote,VIEW,Created Time,DECIMAL,-,YES
+powerbi,salesforce_vf_quote,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_quote,VIEW,Is Primary,INT,-,YES
+powerbi,salesforce_vf_quote,VIEW,Partner Type,STRING,0,YES
+powerbi,salesforce_vf_quote,VIEW,Quote Start Date,DATE,-,YES
+powerbi,salesforce_vf_quote,VIEW,Quote End Date,DATE,-,YES
+powerbi,salesforce_vf_quote,VIEW,Quote Expiration Date,DATE,-,YES
+powerbi,salesforce_vf_quote_history,VIEW,Quote ID,STRING,0,YES
+powerbi,salesforce_vf_quote_history,VIEW,Field,STRING,0,YES
+powerbi,salesforce_vf_quote_history,VIEW,Created Date,TIMESTAMP,-,YES
+powerbi,salesforce_vf_quote_history,VIEW,New Value,STRING,0,YES
+powerbi,salesforce_vf_quote_history,VIEW,Date of Change,DATE,-,YES
+powerbi,salesforce_vf_quote_history,VIEW,Time of Change,DECIMAL,-,YES
+powerbi,salesforce_vf_renewals_forecast_weights,VIEW,Stage Number,LONG,-,YES
+powerbi,salesforce_vf_renewals_forecast_weights,VIEW,Stage Name,STRING,0,YES
+powerbi,salesforce_vf_renewals_forecast_weights,VIEW,Deal Band (ACV),STRING,0,YES
+powerbi,salesforce_vf_renewals_forecast_weights,VIEW,Probability,DOUBLE,-,YES
+powerbi,salesforce_vf_renewals_forecast_weights,VIEW,Relative Due Quarter,LONG,-,YES
+powerbi,salesforce_vf_renewals_forecast_weights,VIEW,Current Quarter Week,LONG,-,YES
+powerbi,salesforce_vf_sales_engineers,VIEW,SE ID,STRING,0,YES
+powerbi,salesforce_vf_sales_engineers,VIEW,SE Name,STRING,0,YES
+powerbi,salesforce_vf_sales_engineers,VIEW,Is Active,BOOLEAN,-,YES
+powerbi,salesforce_vf_sales_engineers,VIEW,SE Team,STRING,0,YES
+powerbi,salesforce_vf_sales_engineers,VIEW,title,STRING,0,YES
+powerbi,salesforce_vf_sales_engineers,VIEW,SE Team ID,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Job Title,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Product Coverage,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Product Group,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Quarter Start,DATE,-,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Quota USD,DECIMAL,-,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Last Updated,DATE,-,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Commission Rate,DECIMAL,-,YES
+powerbi,salesforce_vf_sales_quota,VIEW,On Quota Date,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,ARR Type,STRING,0,YES
+powerbi,salesforce_vf_sales_quota,VIEW,Exchange Type,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 1,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 2,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 3,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 4,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 5,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,SE Team,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,SE Team Email,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Theatre,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 1 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 2 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 3 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 4 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team,VIEW,Level 5 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 1,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 2,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 3,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 4,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 5,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,SE Team,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,SE Team Email,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Theatre,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 1 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 2 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 3 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 4 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sales_team_2025,VIEW,Level 5 Geo-Segment,STRING,0,YES
+powerbi,salesforce_vf_sdr,VIEW,SDR ID,STRING,0,YES
+powerbi,salesforce_vf_sdr,VIEW,SDR Name,STRING,0,YES
+powerbi,salesforce_vf_sdr,VIEW,Is Active,INT,-,YES
+powerbi,salesforce_vf_sdr,VIEW,SDR Region,NULL,-,YES
+powerbi,salesforce_vf_sdr,VIEW,SDR SubRegion,NULL,-,YES
+powerbi,salesforce_vf_sdr,VIEW,XDR Type,STRING,0,YES
+powerbi,salesforce_vf_sdr,VIEW,SDR Team,STRING,0,YES
+powerbi,salesforce_vf_sdr,VIEW,SDR Manager Email,STRING,0,YES
+powerbi,salesforce_vf_sdr_quota,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_sdr_quota,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_sdr_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_sdr_quota,VIEW,Month Start,STRING,0,YES
+powerbi,salesforce_vf_sdr_quota,VIEW,Opps Accepted,STRING,0,YES
+powerbi,salesforce_vf_sdr_quota,VIEW,Last Updated,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,Job Title,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,Quota Type,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,Business Type,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,Quarter Start,STRING,0,YES
+powerbi,salesforce_vf_se_quota,VIEW,Quota USD,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Security Compliance ID,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Link,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Request Type,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Created By,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Requested By,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Type,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Solution Type,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request,VIEW,Owner Name,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request_product,VIEW,Security Compliance ID,STRING,0,YES
+powerbi,salesforce_vf_security_compliance_request_product,VIEW,Product,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Subscription ID,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Owner ID,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Contract ID,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_subscription,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_subscription,VIEW,End Date,DATE,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Current Subscription,BOOLEAN,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Regular Price,DECIMAL,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Customer Price,DECIMAL,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Net Price,DECIMAL,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Renewal Price,DECIMAL,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Annual Renewal Total,DECIMAL,-,YES
+powerbi,salesforce_vf_subscription,VIEW,Currency,STRING,0,YES
+powerbi,salesforce_vf_table_refresh_time,VIEW,TblName,STRING,0,YES
+powerbi,salesforce_vf_table_refresh_time,VIEW,LastRefreshTime,TIMESTAMP,-,YES
+powerbi,salesforce_vf_training,VIEW,Training ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Opportunity ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Product ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Account ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Actual Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_training,VIEW,Assigned To,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Completion Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Computed Product Code,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Contact ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Created By ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Created Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Currency Iso Code,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Delivery Type,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Exceptions,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Expiration Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Extend Training Expiration,BOOLEAN,-,YES
+powerbi,salesforce_vf_training,VIEW,GAAP Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_training,VIEW,Is Deleted,BOOLEAN,-,YES
+powerbi,salesforce_vf_training,VIEW,Last Activity Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Last Contact Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Last Modified By ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Last Modified Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Last Reference Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Last Viewed Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Legacy Number Of Students,DOUBLE,-,YES
+powerbi,salesforce_vf_training,VIEW,LMS Enrollment Key,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Location,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Manual Ship Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Name,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Partner Account ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Partner Assigned ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Partner Instructor ID,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Payment Received Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Product Subtype,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Purchase Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Purchase Type,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Quantity,DOUBLE,-,YES
+powerbi,salesforce_vf_training,VIEW,Quote Line,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Reseller Account,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Sold Amount,DECIMAL,-,YES
+powerbi,salesforce_vf_training,VIEW,Start Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Start Date 2,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Status,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Subscription End Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,Subscription Start Date,DATE,-,YES
+powerbi,salesforce_vf_training,VIEW,System Modstamp,TIMESTAMP,-,YES
+powerbi,salesforce_vf_training,VIEW,TE,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Training ID18,STRING,0,YES
+powerbi,salesforce_vf_training,VIEW,Version,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,User ID,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,User Name,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,Employee Number,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,Title,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,Is Active,BOOLEAN,-,YES
+powerbi,salesforce_vf_user,VIEW,Is SDR,BOOLEAN,-,YES
+powerbi,salesforce_vf_user,VIEW,Email,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,Manager Name,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,User Region,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,User SubRegion,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,Sales Team,STRING,0,YES
+powerbi,salesforce_vf_user,VIEW,Is New Hire,INT,-,YES
+powerbi,salesforce_vf_user,VIEW,Is Backfill,BOOLEAN,-,YES
+powerbi,servicenow_vf_account,VIEW,Salesforce Account ID,STRING,0,YES
+powerbi,servicenow_vf_account,VIEW,Account Name,STRING,0,YES
+powerbi,servicenow_vf_account,VIEW,Account Region,STRING,0,YES
+powerbi,servicenow_vf_account,VIEW,Is Test Record,INT,-,YES
+powerbi,servicenow_vf_assignment_group,VIEW,Assignment Group ID,STRING,0,YES
+powerbi,servicenow_vf_assignment_group,VIEW,Assignment Group Name,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Account ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Is Active,BYTE,-,YES
+powerbi,servicenow_vf_case,VIEW,Approval,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Assigned To ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Assignment Group ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Category ID,INT,-,YES
+powerbi,servicenow_vf_case,VIEW,Closed Date,DATE,-,YES
+powerbi,servicenow_vf_case,VIEW,Closed Time,DECIMAL,-,YES
+powerbi,servicenow_vf_case,VIEW,Closed By ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Company ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Contact ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Contact Type,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Description,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Case Number,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Opened Date,DATE,-,YES
+powerbi,servicenow_vf_case,VIEW,Opened Time,DECIMAL,-,YES
+powerbi,servicenow_vf_case,VIEW,Opened By ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Priority ID,INT,-,YES
+powerbi,servicenow_vf_case,VIEW,Product ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,State ID,LONG,-,YES
+powerbi,servicenow_vf_case,VIEW,Subcategory ID,LONG,-,YES
+powerbi,servicenow_vf_case,VIEW,Created By,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Created Date,DATE,-,YES
+powerbi,servicenow_vf_case,VIEW,Created Time,DECIMAL,-,YES
+powerbi,servicenow_vf_case,VIEW,Updated By,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Updated Date,DATE,-,YES
+powerbi,servicenow_vf_case,VIEW,Updated Time,DECIMAL,-,YES
+powerbi,servicenow_vf_case,VIEW,Issue Type,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Product Family ID,STRING,0,YES
+powerbi,servicenow_vf_case,VIEW,Severity ID,INT,-,YES
+powerbi,servicenow_vf_case,VIEW,Assignment Group Category ID,STRING,0,YES
+powerbi,servicenow_vf_category,VIEW,Category ID,INT,-,YES
+powerbi,servicenow_vf_category,VIEW,Category Name,STRING,0,YES
+powerbi,servicenow_vf_category,VIEW,Assignment Group Category ID,STRING,0,YES
+powerbi,servicenow_vf_customer_account,VIEW,Account ID,STRING,0,YES
+powerbi,servicenow_vf_customer_account,VIEW,Salesforc Account ID,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Incident Number,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Created Date,DATE,-,YES
+powerbi,servicenow_vf_incident,VIEW,Updated Date,DATE,-,YES
+powerbi,servicenow_vf_incident,VIEW,Priority,LONG,-,YES
+powerbi,servicenow_vf_incident,VIEW,State,LONG,-,YES
+powerbi,servicenow_vf_incident,VIEW,Assignment Group,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Assigned To,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Category,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Subcategory,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Hold Reason,LONG,-,YES
+powerbi,servicenow_vf_incident,VIEW,Is Active,INT,-,YES
+powerbi,servicenow_vf_incident,VIEW,Resolved By,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Resolved Date,DATE,-,YES
+powerbi,servicenow_vf_incident,VIEW,Caller,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Created By,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Opened By,STRING,0,YES
+powerbi,servicenow_vf_incident,VIEW,Closed Date,DATE,-,YES
+powerbi,servicenow_vf_incident,VIEW,Opened Date,DATE,-,YES
+powerbi,servicenow_vf_priority,VIEW,Priority ID,INT,-,YES
+powerbi,servicenow_vf_priority,VIEW,Priority,STRING,0,YES
+powerbi,servicenow_vf_product,VIEW,Product ID,STRING,0,YES
+powerbi,servicenow_vf_product,VIEW,Product Name,STRING,0,YES
+powerbi,servicenow_vf_product,VIEW,Category,STRING,0,YES
+powerbi,servicenow_vf_product,VIEW,SFDC Product ID,STRING,0,YES
+powerbi,servicenow_vf_product_family,VIEW,Product Family ID,STRING,0,YES
+powerbi,servicenow_vf_product_family,VIEW,Product Family Name,STRING,0,YES
+powerbi,servicenow_vf_severity,VIEW,Severity ID,INT,-,YES
+powerbi,servicenow_vf_severity,VIEW,Severity,STRING,0,YES
+powerbi,servicenow_vf_state,VIEW,State ID,INT,-,YES
+powerbi,servicenow_vf_state,VIEW,State,STRING,0,YES
+powerbi,servicenow_vf_subcategory,VIEW,Category ID,INT,-,YES
+powerbi,servicenow_vf_subcategory,VIEW,Subcategory ID,INT,-,YES
+powerbi,servicenow_vf_subcategory,VIEW,Subcategory Name,STRING,0,YES
